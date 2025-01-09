@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QLineEdit, QPushButton, QLabel, QVBoxL
 import re
 
 # 配置 Google Gemini AI
-genai.configure(api_key="AIzaSyDidTvQ30-zFttUG4EbErxOf6hsaFSt-_U")
+genai.configure(api_key="openlms上に書いております")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 class ZipcodeApp(QWidget):
@@ -39,7 +39,7 @@ class ZipcodeApp(QWidget):
         self.reset_button.clicked.connect(self.reset_fields)
 
         # OpenWeather API キー
-        self.weather_api_key = "188b26bcf81ad0c453a2a0931bf4ad17"
+        self.weather_api_key = "openlms上に書いております"
 
     def validate_zipcode(self, input_text):
         """郵便番号が正しい形式か確認する"""
